@@ -63,7 +63,7 @@ def resultValidate(data):
             return False
     return True
 
-data = [random.randint(0,100) for i in range(20000)]
+data = [random.randint(0,100000) for i in range(2000)]
 # data = [80, 93, 60, 12, 42, 30, 68, 85, 10]
 starttime = time.time()
 print('排序前 --- ',  time.time())
